@@ -12,5 +12,6 @@ while (B <= 'z')
 putchar(B);
 B++;
 }
+putchar('\n');
 return (0);
 }
