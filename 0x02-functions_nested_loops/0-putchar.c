@@ -1,30 +1,21 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 /**
- * main - Entry point
+ * main - check the code
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-	int letter;
+	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int count;
 
-	letter = '_';
-	putchar(letter);
-	letter = 'p';
-	putchar(letter);
-	letter = 'u';
-	putchar(letter);
-	letter = 't';
-	putchar(letter);
-	letter = 'c';
-	putchar(letter);
-	letter = 'h';
-	putchar(letter);
-	letter = 'a';
-	putchar(letter);
-	letter = 'r';
-	putchar(letter);
+	int length = sizeof(str) / sizeof(int);
+
+	for (count = 0; count < length; count++)
+	{
+		_putchar(str[count]);
+	}
 
 	putchar('\n');
 	return (0);
