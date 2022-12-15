@@ -5,7 +5,7 @@
  *
  * @n: number of times character will be printed
  *
- * Return: Always 0 (Success)
+ * Return: No return 
  */
 void print_diagonal(int n)
 {
