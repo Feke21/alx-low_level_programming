@@ -3,8 +3,8 @@
 
 /**
  * _strcat - concatenates two strings
- * @dest: input string
- * @src: input string
+ * @dest: destination of cat  string
+ * @src: string to be cat
  *
  * Return: dest
  */
@@ -12,7 +12,7 @@ char *_strcat(char *dest, char *src)
 {
 	int m, a;
 
-	m = 0; 
+	m = 0;
 	while (dest[m] != '\0')
 	{
 		m++;
