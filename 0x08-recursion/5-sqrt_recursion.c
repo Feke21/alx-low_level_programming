@@ -23,7 +23,6 @@ int _sqr_i(int i, int j)
 /**
  * _sqrt_recursion - square root of a number
  * @n: number to square root
- * @i: square of number
  *
  * Return: -1 if @n does not have a natural square root
  */
