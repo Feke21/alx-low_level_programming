@@ -2,5 +2,5 @@
 #define MAIN_H
 
 int _putchar(char c);
-char *_create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c);
 #endif
