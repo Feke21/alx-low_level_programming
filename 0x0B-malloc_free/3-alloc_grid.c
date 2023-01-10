@@ -3,8 +3,8 @@
 
 /**
  * alloc_grid - a pointer to a 2 dimensional array of integers
- * @width: cols
- * @height: rows
+ * @width: width of array
+ * @height: height of array
  *
  * Return: null on failure. if @width or @height is 0
  * or negative return null.
@@ -36,7 +36,7 @@ int **alloc_grid(int width, int height)
 			{
 				free(array[i]);
 			}
-			free(array[i]);
+			free(array);
 			return (NULL);
 		}
 	}
