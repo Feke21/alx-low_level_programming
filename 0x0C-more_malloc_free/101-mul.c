@@ -12,18 +12,18 @@
 int main(int argc, char *argv[])
 {
 	unsigned long mul;
-	int num1, num2;
+	int a, b;
 
 	if (argc != 3)
 	{
 		printf("Error\n");
 		exit(98);
 	}
-	for (num1 = 1; num1 < argc; num1++)
+	for (a = 1; a < argc; a++)
 	{
-		for (num2 = 0; argv[num1][num2] != '\0'; num2++)
+		for (b = 0; argv[a][b] != '\0'; b++)
 		{
-			if ((argv[num1][num2] < '0' || argv[num1][num2] > '9'))
+			if ((argv[a][b] < '0' || argv[a][b] > '9'))
 			{
 				printf("Error\n");
 				exit(98);
