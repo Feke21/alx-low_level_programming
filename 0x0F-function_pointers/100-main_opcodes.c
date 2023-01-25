@@ -26,7 +26,7 @@ void print_opcodes(char *a, int b)
 
 /**
  * main - prints the opcodes of its main function
- * argc: argument counter
+ * @argc: argument counter
  * @argv: argument vector
  *
  * Return: Always 0.
