@@ -1,12 +1,12 @@
 #include "3-calc.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
  * get_op_func - compares functions with pointer and returns the eqivalent
  * @s: pointer to a char
  *
- * Return: return function and operator. if operator is not 
- * between the 5 then return null.
+ * Return: return function and operator when equal
  */
 int (*get_op_func(char *s))(int, int)
 {
@@ -21,9 +21,9 @@ int (*get_op_func(char *s))(int, int)
 
 	int i = 0;
 
-	while (i < 5)
+	while (ops[i].op != NULL)
 	{
-		if (strcmp(s, ops[i].op == 0))
+		if (!strcmp(ops[i].op, s))
 		{
 			return (ops[i].f);
 		i++;
