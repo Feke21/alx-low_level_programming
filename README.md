@@ -1,13 +1,13 @@
-#Low-level programming & Algorithm
+# Low-level programming & Algorithm
 
 Module of **Low-level programming** and **algorithm**, done during **SE Program** with ALX Africa
 
-##Technologies
+## Technologies
 * Scripts written in bash
 * C files are compiled using `gcc` and the foloowing flags `-Wall -Werror -Wextra -pedantic -std=gnu89`
 * Tested on Ubuntu 14.04 LTS
 
-##Projects
+## Projects
 The following folders are projects done during the program:
 
 | Project name | Description |
